@@ -16,13 +16,13 @@ if (sugu === "M"||sugu ==="m"){
 //treeningukontroll
 let maxpulse;
 let minpulse;
-if (trenn == 1) {
+if (trenn === 1) {
     minpulse = maxPulseSagedus * 0.5;
     maxpulse = maxPulseSagedus * 0.7;
-} else if (trenn == 2){
+} else if (trenn === 2){
     minpulse =maxPulseSagedus * 0.7;
     maxpulse = maxPulseSagedus * 0.8;
-} else if (trenn == 3){
+} else if (trenn === 3){
     minpulse = maxPulseSagedus * 0.8;
     maxpulse = maxPulseSagedus * 0.87;
 }
