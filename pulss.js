@@ -7,7 +7,7 @@ let trenn = prompt("Sisesta treeningutüüp (1, 2 või 3):")
 
 //max pulsi arvutamine
 let maxPulseSagedus;
-if (sugu == "M"||sugu =="m"){
+if (sugu === "M"||sugu ==="m"){
     maxPulseSagedus = 220 - age;
 } if (sugu === "N"|| sugu ==="n") {
     maxPulseSagedus = 206 - age * 0.88;
