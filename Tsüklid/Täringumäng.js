@@ -1,8 +1,7 @@
 let täringud = prompt('Sisesta täringute arv:')
 
 // for tsükkel
-for (let täring = 1; täring <= täringud; täring++){
-    console.log(Math.trunc(Math.round(Math.random()*6)) ) + "<br>"
+for (var i=1; i<=täringud; i++) {
+    let täring = Math.floor(Math.random() * 6) +1
+    console.log(täring)
 }
-
-console.log('Täringute arv: '+ täringud)
